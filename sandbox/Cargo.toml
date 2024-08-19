@@ -2,5 +2,20 @@
 name = "sandbox"
 version = "0.1.0"
 edition = "2021"
+description = ""
+repository = ""
+readme = "README.md"
+license = "Apache-2.0/MIT"
+categories = [""]
 
 [dependencies]
+tokio = { version = "1", features = ["full", "sync", "rt"] }
+tokio-stream = "0.1"
+tokio-util = { version = "0.7", features = ["codec", "io"] }
+tokio-test = { version = "0.4" }
+bytes = "1"
+futures = "0.3"
+futures-util = "0.3"
+thread-id = "4"
+rand = "0.8.5"
+tracing = "0.1"
